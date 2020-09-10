@@ -1,1 +1,1 @@
-web: gunicorn flaskapi.wsgi --log-file -
+web: gunicorn wsgi:app --log-file -
