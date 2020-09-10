@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask-restx = "*"
 flask = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
